@@ -25,6 +25,7 @@ CounterStrikeSharp plugins are full C# projects, not a single file like `.sma` o
 **CounterStrikeSharp.API versions**
 - Choose the API version to build against, with search for older versions
 - If your plugin targets a different .NET framework or API version, the compiler detects the mismatch and suggests the right version automatically
+[![Compilation result](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_version_mismatch.PNG)](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_version_mismatch.PNG)
 - Build configuration: `Release` for live servers, `Debug` for local troubleshooting only
 
 **Isolated builds**
@@ -75,7 +76,7 @@ To check which CounterStrikeSharp version your server is running, type `meta lis
 
 <br>
 
-[![Compilation result](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_admin_dashboard.png)](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_admin_dashboard.png)
+[![Admin dashboard](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_admin_dashboard.png)](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_admin_dashboard.png)
 
 </details>
 
