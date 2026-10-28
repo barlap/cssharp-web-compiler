@@ -11,9 +11,7 @@ Upload your plugin project as a `.zip`, pick the CounterStrikeSharp.API version,
 
 ## Why this exists
 
-CounterStrikeSharp plugins are full C# projects, not a single file like `.sma` or `.sp`. This compiler handles the whole workflow in the browser: unpacking the project, restoring NuGet packages, building it against the API version you choose, and handing you the result.
-
-It is built by the same author as the [AMX Mod X web compiler](https://amx.icegame.ro) and the [SourceMod web compiler](https://smx.icegame.ro), and the three sites are linked together from the navbar.
+CounterStrikeSharp plugins are full C# projects, not a single file like `.sma` or `.sp` used by amxmodx or sourcemod. This compiler handles the whole workflow in the browser: unpacking the project, restoring NuGet packages, building it against the API version you choose, and handing you the result.
 
 ## Features
 
@@ -64,8 +62,6 @@ To check which CounterStrikeSharp version your server is running, type `meta lis
 
 - Compiler: https://cssharp.icegame.ro
 - Guides: https://cssharp.icegame.ro/guides
-- AMX Mod X compiler: https://amx.icegame.ro
-- SourceMod compiler: https://smx.icegame.ro
 - IceGame Romania: https://icegame.ro
 
 ## Feedback
