@@ -93,4 +93,4 @@ To check which CounterStrikeSharp version your server is running, type `meta lis
 
 ## Feedback
 
-Found a bug or have a suggestion? Open an [issue](https://github.com/barlap/cssharp-web-compiler/issues). Feedback is welcome.
+Found a bug or have a suggestion? Open an [issue](../../issues). Feedback is welcome.
