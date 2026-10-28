@@ -1,17 +1,18 @@
-# CounterStrikeSharp Web Compiler
+<p align="center">
+  <a href="https://cssharp.icegame.ro">
+    <img src="https://cssharp.icegame.ro/images/logo-2.png?v=2" alt="CounterStrikeSharp Online Compiler">
+  </a>
+</p>
 
-**Free online compiler for [CounterStrikeSharp](https://docs.cssharp.dev/) (CS2) plugins.**
-Upload your plugin project as a `.zip`, pick the CounterStrikeSharp.API version, and download the compiled plugin. No local .NET SDK or Visual Studio required.
+[![Website](https://img.shields.io/badge/Website-cssharp.icegame.ro-blue)](https://cssharp.icegame.ro)
+[![Guides](https://img.shields.io/badge/Guides-16%20languages-green)](https://cssharp.icegame.ro/guides)
 
-### 👉 [cssharp.icegame.ro](https://cssharp.icegame.ro)
-
-![Main page](https://cssharp.icegame.ro/images/logo-2.png?v=2)
-
----
+#### 👉 **[cssharp.icegame.ro](https://cssharp.icegame.ro)** **is a free online compiler for [CounterStrikeSharp](https://docs.cssharp.dev/) (CS2) plugins.**
+#### **Upload your plugin project as a `.zip`, pick the CounterStrikeSharp.API version, and download the compiled plugin. No local .NET SDK or Visual Studio required.**
 
 ## Why this exists
 
-CounterStrikeSharp plugins are full C# projects, not a single file like `.sma` or `.sp` used by amxmodx or sourcemod. This compiler handles the whole workflow in the browser: unpacking the project, restoring NuGet packages, building it against the API version you choose, and handing you the result.
+CounterStrikeSharp plugins are full C# projects, not a single file like `.sma` or `.sp` used by AMX Mod X or SourceMod. This compiler handles the whole workflow in the browser: unpacking the project, restoring NuGet packages, building it against the API version you choose, and handing you the result.
 
 ## Features
 
@@ -41,8 +42,6 @@ CounterStrikeSharp plugins are full C# projects, not a single file like `.sma` o
 - Metamod and CounterStrikeSharp setup, your first Hello World plugin, becoming admin, commands and chat, game events, plugin config, NuGet and databases
 - Troubleshooting: plugin not loading, compile errors explained, version mismatches, missing project references
 
-![Compilation result](https://i.imgur.com/a9CHsTp.png)
-
 ## How to use it
 
 1. Go to **[cssharp.icegame.ro](https://cssharp.icegame.ro)** and pick your interface language.
@@ -52,6 +51,33 @@ CounterStrikeSharp plugins are full C# projects, not a single file like `.sma` o
 5. If the build succeeds, press **Download** to get the compiled plugin as a `.zip`.
 
 To check which CounterStrikeSharp version your server is running, type `meta list` in the server console.
+
+## Screenshots
+
+<details>
+<summary>📸 Main page (click to expand)</summary>
+
+<br>
+
+[![Compilation result](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_main_page.PNG)](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_main_page.PNG)
+
+</details>
+<details>
+<summary>📸 Compilation result (click to expand)</summary>
+
+<br>
+
+[![Compilation result](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_compiler_result.PNG)](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_compiler_result.PNG)
+
+</details>
+<details>
+<summary>📸 Admin Dashboard (click to expand)</summary>
+
+<br>
+
+[![Compilation result](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_admin_dashboard.png)](https://github.com/barlap/cssharp-web-compiler/blob/main/cssharp_admin_dashboard.png)
+
+</details>
 
 ## Good to know
 
@@ -66,4 +92,4 @@ To check which CounterStrikeSharp version your server is running, type `meta lis
 
 ## Feedback
 
-Found a bug or have a suggestion? Open an [issue](../../issues). Feedback is welcome.
+Found a bug or have a suggestion? Open an [issue](https://github.com/USER/REPO/issues). Feedback is welcome.
